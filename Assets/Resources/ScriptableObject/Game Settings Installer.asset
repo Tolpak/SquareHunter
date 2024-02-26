@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff8335a4cc0648e48a5c9abc8b6614fd, type: 3}
+  m_Name: Game Settings Installer
+  m_EditorClassIdentifier: 
+  Character:
+    Speed:
+      MaxSpeed: 5
+  Enemy:
+    Spawner:
+      MaxEnemies: 4
+      SpawnInterval: 2
+  GameInstaller:
+    EnemyPrefab: {fileID: 495801194099866255, guid: 226df5449d959634a9651871466f524e, type: 3}
+    OverlayPrefab: {fileID: 2074316084610279749, guid: 860f911c4ebb1a946bba393f4779ff17, type: 3}
